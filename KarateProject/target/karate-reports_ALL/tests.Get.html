@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>tests.Get</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">5</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-08-09 06:07:44 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:8]"><span>[1:8]</span> <span>Get demo 1</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:15]"><span>[2:15]</span> <span>Get demo 2</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:26]"><span>[3:26]</span> <span>Get demo 3</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[4:33]"><span>[4:33]</span> <span>Get demo 4</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[5:41]"><span>[5:41]</span> <span>Get demo 5</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">tests/Get.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Get API Demo</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:8]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:8]</span>
+                <span class="scenario-name">Get demo 1</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>18</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:8]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://localhost:8080/getPatient&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:8080/getPatient/Indore20&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">15</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">18:07:44.252 request:
+1 &gt; GET http://localhost:8080/getPatient/Indore20
+1 &gt; Accept: application/json
+1 &gt; Host: localhost:8080
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+18:07:44.264 response time in milliseconds: 11
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Date: Mon, 09 Aug 2021 12:37:43 GMT
+1 &lt; Keep-Alive: timeout=60
+1 &lt; Connection: keep-alive
+{&quot;base_fee&quot;:&quot;500&quot;,&quot;fees_payable&quot;:&quot;9000&quot;,&quot;city&quot;:&quot;Indore&quot;,&quot;patient_name&quot;:&quot;Nitin&quot;,&quot;prescription_fee&quot;:&quot;9500&quot;,&quot;id&quot;:&quot;Indore20&quot;,&quot;doctor_name&quot;:&quot;Ashish&quot;,&quot;discount_in_percent&quot;:&quot;10&quot;,&quot;age&quot;:20,&quot;pt_mobile_number&quot;:&quot;9764943744&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;response is :&#39; , response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">18:07:44.266 [print] response is : {
+  &quot;base_fee&quot;: &quot;500&quot;,
+  &quot;fees_payable&quot;: &quot;9000&quot;,
+  &quot;city&quot;: &quot;Indore&quot;,
+  &quot;patient_name&quot;: &quot;Nitin&quot;,
+  &quot;prescription_fee&quot;: &quot;9500&quot;,
+  &quot;id&quot;: &quot;Indore20&quot;,
+  &quot;doctor_name&quot;: &quot;Ashish&quot;,
+  &quot;discount_in_percent&quot;: &quot;10&quot;,
+  &quot;age&quot;: 20,
+  &quot;pt_mobile_number&quot;: &quot;9764943744&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:15]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:15]</span>
+                <span class="scenario-name">Get demo 2</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>70</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:15]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://localhost:8080/getPatient&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/Indore20&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">21</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.17">18:07:44.283 request:
+1 &gt; GET http://localhost:8080/getPatient/Indore20
+1 &gt; Accept: application/json
+1 &gt; Host: localhost:8080
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+18:07:44.299 response time in milliseconds: 15
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Date: Mon, 09 Aug 2021 12:37:43 GMT
+1 &lt; Keep-Alive: timeout=60
+1 &lt; Connection: keep-alive
+{&quot;base_fee&quot;:&quot;500&quot;,&quot;fees_payable&quot;:&quot;9000&quot;,&quot;city&quot;:&quot;Indore&quot;,&quot;patient_name&quot;:&quot;Nitin&quot;,&quot;prescription_fee&quot;:&quot;9500&quot;,&quot;id&quot;:&quot;Indore20&quot;,&quot;doctor_name&quot;:&quot;Ashish&quot;,&quot;discount_in_percent&quot;:&quot;10&quot;,&quot;age&quot;:20,&quot;pt_mobile_number&quot;:&quot;9764943744&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;response is :&#39; , response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.19">18:07:44.303 [print] response is : {
+  &quot;base_fee&quot;: &quot;500&quot;,
+  &quot;fees_payable&quot;: &quot;9000&quot;,
+  &quot;city&quot;: &quot;Indore&quot;,
+  &quot;patient_name&quot;: &quot;Nitin&quot;,
+  &quot;prescription_fee&quot;: &quot;9500&quot;,
+  &quot;id&quot;: &quot;Indore20&quot;,
+  &quot;doctor_name&quot;: &quot;Ashish&quot;,
+  &quot;discount_in_percent&quot;: &quot;10&quot;,
+  &quot;age&quot;: 20,
+  &quot;pt_mobile_number&quot;: &quot;9764943744&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match $.id == &quot;Indore20&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">35</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;response status is :&#39; , responseStatus</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.21">18:07:44.340 [print] response status is : 200 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;response time is :&#39; , responseTime</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.22">18:07:44.341 [print] response time is : 15 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;response header is :&#39; , responseHeaders</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.23">18:07:44.343 [print] response header is : {
+  &quot;Content-Type&quot;: [
+    &quot;application/json&quot;
+  ],
+  &quot;Transfer-Encoding&quot;: [
+    &quot;chunked&quot;
+  ],
+  &quot;Date&quot;: [
+    &quot;Mon, 09 Aug 2021 12:37:43 GMT&quot;
+  ],
+  &quot;Keep-Alive&quot;: [
+    &quot;timeout=60&quot;
+  ],
+  &quot;Connection&quot;: [
+    &quot;keep-alive&quot;
+  ]
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:26]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:26]</span>
+                <span class="scenario-name">Get demo 3</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>48</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:26]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://localhost:8080/getPatient&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:8080/getPatient/doctor_name?doctor_name=Ashish&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">44</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.28">18:07:44.360 request:
+1 &gt; GET http://localhost:8080/getPatient/doctor_name?doctor_name=Ashish
+1 &gt; Accept: application/json
+1 &gt; Host: localhost:8080
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+18:07:44.402 response time in milliseconds: 41
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Date: Mon, 09 Aug 2021 12:37:43 GMT
+1 &lt; Keep-Alive: timeout=60
+1 &lt; Connection: keep-alive
+[{&quot;base_fee&quot;:&quot;500&quot;,&quot;fees_payable&quot;:&quot;9000&quot;,&quot;city&quot;:&quot;Indore&quot;,&quot;patient_name&quot;:&quot;Nitin&quot;,&quot;prescription_fee&quot;:&quot;9500&quot;,&quot;id&quot;:&quot;Indore20&quot;,&quot;doctor_name&quot;:&quot;Ashish&quot;,&quot;discount_in_percent&quot;:&quot;10&quot;,&quot;age&quot;:20,&quot;pt_mobile_number&quot;:&quot;9764943744&quot;},{&quot;base_fee&quot;:&quot;500&quot;,&quot;fees_payable&quot;:&quot;9000&quot;,&quot;city&quot;:&quot;Pune&quot;,&quot;patient_name&quot;:&quot;Nitin&quot;,&quot;prescription_fee&quot;:&quot;9500&quot;,&quot;id&quot;:&quot;Pune19&quot;,&quot;doctor_name&quot;:&quot;Ashish&quot;,&quot;discount_in_percent&quot;:&quot;10&quot;,&quot;age&quot;:19,&quot;pt_mobile_number&quot;:&quot;9764943744&quot;},{&quot;base_fee&quot;:&quot;500&quot;,&quot;fees_payable&quot;:&quot;1700&quot;,&quot;city&quot;:&quot;Pune&quot;,&quot;patient_name&quot;:&quot;Yogesh&quot;,&quot;prescription_fee&quot;:&quot;1200&quot;,&quot;id&quot;:&quot;Pune28&quot;,&quot;doctor_name&quot;:&quot;Ashish&quot;,&quot;discount_in_percent&quot;:&quot;10&quot;,&quot;age&quot;:28,&quot;pt_mobile_number&quot;:&quot;9922455800&quot;}]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;response is :&#39; , response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.30">18:07:44.404 [print] response is : [
+  {
+    &quot;base_fee&quot;: &quot;500&quot;,
+    &quot;fees_payable&quot;: &quot;9000&quot;,
+    &quot;city&quot;: &quot;Indore&quot;,
+    &quot;patient_name&quot;: &quot;Nitin&quot;,
+    &quot;prescription_fee&quot;: &quot;9500&quot;,
+    &quot;id&quot;: &quot;Indore20&quot;,
+    &quot;doctor_name&quot;: &quot;Ashish&quot;,
+    &quot;discount_in_percent&quot;: &quot;10&quot;,
+    &quot;age&quot;: 20,
+    &quot;pt_mobile_number&quot;: &quot;9764943744&quot;
+  },
+  {
+    &quot;base_fee&quot;: &quot;500&quot;,
+    &quot;fees_payable&quot;: &quot;9000&quot;,
+    &quot;city&quot;: &quot;Pune&quot;,
+    &quot;patient_name&quot;: &quot;Nitin&quot;,
+    &quot;prescription_fee&quot;: &quot;9500&quot;,
+    &quot;id&quot;: &quot;Pune19&quot;,
+    &quot;doctor_name&quot;: &quot;Ashish&quot;,
+    &quot;discount_in_percent&quot;: &quot;10&quot;,
+    &quot;age&quot;: 19,
+    &quot;pt_mobile_number&quot;: &quot;9764943744&quot;
+  },
+  {
+    &quot;base_fee&quot;: &quot;500&quot;,
+    &quot;fees_payable&quot;: &quot;1700&quot;,
+    &quot;city&quot;: &quot;Pune&quot;,
+    &quot;patient_name&quot;: &quot;Yogesh&quot;,
+    &quot;prescription_fee&quot;: &quot;1200&quot;,
+    &quot;id&quot;: &quot;Pune28&quot;,
+    &quot;doctor_name&quot;: &quot;Ashish&quot;,
+    &quot;discount_in_percent&quot;: &quot;10&quot;,
+    &quot;age&quot;: 28,
+    &quot;pt_mobile_number&quot;: &quot;9922455800&quot;
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:33]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:33]</span>
+                <span class="scenario-name">Get demo 4</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>51</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4:33]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4:33]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://localhost:8080/getPatient&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:33]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/doctor_name&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param doctor_name = &#39;Ashish&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">40</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.36">18:07:44.438 request:
+1 &gt; GET http://localhost:8080/getPatient/doctor_name?doctor_name=Ashish
+1 &gt; Accept: application/json
+1 &gt; Host: localhost:8080
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+18:07:44.455 response time in milliseconds: 17
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Date: Mon, 09 Aug 2021 12:37:44 GMT
+1 &lt; Keep-Alive: timeout=60
+1 &lt; Connection: keep-alive
+[{&quot;base_fee&quot;:&quot;500&quot;,&quot;fees_payable&quot;:&quot;9000&quot;,&quot;city&quot;:&quot;Indore&quot;,&quot;patient_name&quot;:&quot;Nitin&quot;,&quot;prescription_fee&quot;:&quot;9500&quot;,&quot;id&quot;:&quot;Indore20&quot;,&quot;doctor_name&quot;:&quot;Ashish&quot;,&quot;discount_in_percent&quot;:&quot;10&quot;,&quot;age&quot;:20,&quot;pt_mobile_number&quot;:&quot;9764943744&quot;},{&quot;base_fee&quot;:&quot;500&quot;,&quot;fees_payable&quot;:&quot;9000&quot;,&quot;city&quot;:&quot;Pune&quot;,&quot;patient_name&quot;:&quot;Nitin&quot;,&quot;prescription_fee&quot;:&quot;9500&quot;,&quot;id&quot;:&quot;Pune19&quot;,&quot;doctor_name&quot;:&quot;Ashish&quot;,&quot;discount_in_percent&quot;:&quot;10&quot;,&quot;age&quot;:19,&quot;pt_mobile_number&quot;:&quot;9764943744&quot;},{&quot;base_fee&quot;:&quot;500&quot;,&quot;fees_payable&quot;:&quot;1700&quot;,&quot;city&quot;:&quot;Pune&quot;,&quot;patient_name&quot;:&quot;Yogesh&quot;,&quot;prescription_fee&quot;:&quot;1200&quot;,&quot;id&quot;:&quot;Pune28&quot;,&quot;doctor_name&quot;:&quot;Ashish&quot;,&quot;discount_in_percent&quot;:&quot;10&quot;,&quot;age&quot;:28,&quot;pt_mobile_number&quot;:&quot;9922455800&quot;}]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.37">
+      <div class="step-ref passed">37</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.38">
+      <div class="step-ref passed">38</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;response is :&#39; , response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.38">18:07:44.462 [print] response is : [
+  {
+    &quot;base_fee&quot;: &quot;500&quot;,
+    &quot;fees_payable&quot;: &quot;9000&quot;,
+    &quot;city&quot;: &quot;Indore&quot;,
+    &quot;patient_name&quot;: &quot;Nitin&quot;,
+    &quot;prescription_fee&quot;: &quot;9500&quot;,
+    &quot;id&quot;: &quot;Indore20&quot;,
+    &quot;doctor_name&quot;: &quot;Ashish&quot;,
+    &quot;discount_in_percent&quot;: &quot;10&quot;,
+    &quot;age&quot;: 20,
+    &quot;pt_mobile_number&quot;: &quot;9764943744&quot;
+  },
+  {
+    &quot;base_fee&quot;: &quot;500&quot;,
+    &quot;fees_payable&quot;: &quot;9000&quot;,
+    &quot;city&quot;: &quot;Pune&quot;,
+    &quot;patient_name&quot;: &quot;Nitin&quot;,
+    &quot;prescription_fee&quot;: &quot;9500&quot;,
+    &quot;id&quot;: &quot;Pune19&quot;,
+    &quot;doctor_name&quot;: &quot;Ashish&quot;,
+    &quot;discount_in_percent&quot;: &quot;10&quot;,
+    &quot;age&quot;: 19,
+    &quot;pt_mobile_number&quot;: &quot;9764943744&quot;
+  },
+  {
+    &quot;base_fee&quot;: &quot;500&quot;,
+    &quot;fees_payable&quot;: &quot;1700&quot;,
+    &quot;city&quot;: &quot;Pune&quot;,
+    &quot;patient_name&quot;: &quot;Yogesh&quot;,
+    &quot;prescription_fee&quot;: &quot;1200&quot;,
+    &quot;id&quot;: &quot;Pune28&quot;,
+    &quot;doctor_name&quot;: &quot;Ashish&quot;,
+    &quot;discount_in_percent&quot;: &quot;10&quot;,
+    &quot;age&quot;: 28,
+    &quot;pt_mobile_number&quot;: &quot;9922455800&quot;
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[5:41]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[5:41]</span>
+                <span class="scenario-name">Get demo 5</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>23</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[5:41]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[5:41]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;http://localhost:8080/getPatient&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[5:41]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.42">
+      <div class="step-ref passed">42</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/doctor_name&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.43">
+      <div class="step-ref passed">43</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param doctor_name = &#39;Ashish&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.44">
+      <div class="step-ref passed">44</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">21</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.44">18:07:44.472 request:
+1 &gt; GET http://localhost:8080/getPatient/doctor_name?doctor_name=Ashish
+1 &gt; Accept: application/json
+1 &gt; Host: localhost:8080
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+18:07:44.490 response time in milliseconds: 18
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Date: Mon, 09 Aug 2021 12:37:44 GMT
+1 &lt; Keep-Alive: timeout=60
+1 &lt; Connection: keep-alive
+[{&quot;base_fee&quot;:&quot;500&quot;,&quot;fees_payable&quot;:&quot;9000&quot;,&quot;city&quot;:&quot;Indore&quot;,&quot;patient_name&quot;:&quot;Nitin&quot;,&quot;prescription_fee&quot;:&quot;9500&quot;,&quot;id&quot;:&quot;Indore20&quot;,&quot;doctor_name&quot;:&quot;Ashish&quot;,&quot;discount_in_percent&quot;:&quot;10&quot;,&quot;age&quot;:20,&quot;pt_mobile_number&quot;:&quot;9764943744&quot;},{&quot;base_fee&quot;:&quot;500&quot;,&quot;fees_payable&quot;:&quot;9000&quot;,&quot;city&quot;:&quot;Pune&quot;,&quot;patient_name&quot;:&quot;Nitin&quot;,&quot;prescription_fee&quot;:&quot;9500&quot;,&quot;id&quot;:&quot;Pune19&quot;,&quot;doctor_name&quot;:&quot;Ashish&quot;,&quot;discount_in_percent&quot;:&quot;10&quot;,&quot;age&quot;:19,&quot;pt_mobile_number&quot;:&quot;9764943744&quot;},{&quot;base_fee&quot;:&quot;500&quot;,&quot;fees_payable&quot;:&quot;1700&quot;,&quot;city&quot;:&quot;Pune&quot;,&quot;patient_name&quot;:&quot;Yogesh&quot;,&quot;prescription_fee&quot;:&quot;1200&quot;,&quot;id&quot;:&quot;Pune28&quot;,&quot;doctor_name&quot;:&quot;Ashish&quot;,&quot;discount_in_percent&quot;:&quot;10&quot;,&quot;age&quot;:28,&quot;pt_mobile_number&quot;:&quot;9922455800&quot;}]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.45">
+      <div class="step-ref passed">45</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.46">
+      <div class="step-ref passed">46</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;response is :&#39; , response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.46">18:07:44.492 [print] response is : [
+  {
+    &quot;base_fee&quot;: &quot;500&quot;,
+    &quot;fees_payable&quot;: &quot;9000&quot;,
+    &quot;city&quot;: &quot;Indore&quot;,
+    &quot;patient_name&quot;: &quot;Nitin&quot;,
+    &quot;prescription_fee&quot;: &quot;9500&quot;,
+    &quot;id&quot;: &quot;Indore20&quot;,
+    &quot;doctor_name&quot;: &quot;Ashish&quot;,
+    &quot;discount_in_percent&quot;: &quot;10&quot;,
+    &quot;age&quot;: 20,
+    &quot;pt_mobile_number&quot;: &quot;9764943744&quot;
+  },
+  {
+    &quot;base_fee&quot;: &quot;500&quot;,
+    &quot;fees_payable&quot;: &quot;9000&quot;,
+    &quot;city&quot;: &quot;Pune&quot;,
+    &quot;patient_name&quot;: &quot;Nitin&quot;,
+    &quot;prescription_fee&quot;: &quot;9500&quot;,
+    &quot;id&quot;: &quot;Pune19&quot;,
+    &quot;doctor_name&quot;: &quot;Ashish&quot;,
+    &quot;discount_in_percent&quot;: &quot;10&quot;,
+    &quot;age&quot;: 19,
+    &quot;pt_mobile_number&quot;: &quot;9764943744&quot;
+  },
+  {
+    &quot;base_fee&quot;: &quot;500&quot;,
+    &quot;fees_payable&quot;: &quot;1700&quot;,
+    &quot;city&quot;: &quot;Pune&quot;,
+    &quot;patient_name&quot;: &quot;Yogesh&quot;,
+    &quot;prescription_fee&quot;: &quot;1200&quot;,
+    &quot;id&quot;: &quot;Pune28&quot;,
+    &quot;doctor_name&quot;: &quot;Ashish&quot;,
+    &quot;discount_in_percent&quot;: &quot;10&quot;,
+    &quot;age&quot;: 28,
+    &quot;pt_mobile_number&quot;: &quot;9922455800&quot;
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

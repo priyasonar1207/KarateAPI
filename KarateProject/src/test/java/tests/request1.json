@@ -1,0 +1,9 @@
+ {
+      "patient_name":"Ankita",
+      "city":"Pune","age":37,
+      "doctor_name":"Rohan",
+      "base_fee" : 500,
+      "prescription_fee" : 1700,
+      "discount_in_percent":10,
+      "pt_mobile_number" : "9039296249"
+ }
