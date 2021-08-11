@@ -1,7 +1,7 @@
 Feature: Get API config file Demo
 
   Background: 
-    * url baseUrl
+    * url BaseURL
     * header Accept = 'application/json'
 
   #simple GET request without background from config file

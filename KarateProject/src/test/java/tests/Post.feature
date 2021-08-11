@@ -11,7 +11,7 @@ Feature: Post API Demo
     Given url 'http://localhost:8080/addPatient'
     And request {"patient_name":"Ankit","city":"Bhopal","age":23,"doctor_name":"Poonam","base_fee" : 500,"prescription_fee" : 2100,"discount_in_percent":10,"pt_mobile_number" : "9039122349"}
     When method POST
-    Then status 201
+    Then status 202
     And print 'response is :' , response
     And print 'response status is :' , responseStatus
     And print 'response time is :' , responseTime
@@ -61,4 +61,4 @@ Feature: Post API Demo
     And request requestBody
     When method POST
     Then status 202
-    And print 'response is :' , response
+    Then print 'response is :' , response
